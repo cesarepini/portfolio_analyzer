@@ -1,0 +1,27 @@
+# Ignore the learning folder
+learning/*
+
+# Ignore the virtual environments
+venv/*
+.venv/*
+
+# Ignore pycache folders and connected files
+__pycache__/*
+*.pyc
+
+# Ignore .pytest_cache folder
+.pytest_cache/*
+
+# Particular, custom files
+*exercise.py
+*earth_position.py
+
+# Exclude .csv, .json files
+*.csv
+*.json
+
+# Exclude the data folder
+data/*
+
+# Environmental files
+*.env
