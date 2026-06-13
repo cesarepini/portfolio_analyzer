@@ -16,12 +16,15 @@ __pycache__/*
 *exercise.py
 *earth_position.py
 
-# Exclude .csv, .json files
-*.csv
-*.json
+# Exclude .csv, .json files from the data folder
+/*.csv
+/*.json
 
 # Exclude the data folder
 data/*
 
 # Environmental files
 *.env
+
+# Exclude the pytest coverage file
+.coverage
